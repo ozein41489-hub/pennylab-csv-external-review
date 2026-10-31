@@ -1,0 +1,62 @@
+{
+  "assessment": "PennyLab expert CSV engineering v2",
+  "classification": "Internal assistant-authored benchmark; not official platform credential",
+  "score": 100,
+  "possible": 100,
+  "tests": [
+    {
+      "name": "stable join",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate key many-to-many",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "empty-key safety",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "Unicode column collision",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "quoted field parsing",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "invalid header rejection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "atomic failure rollback",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "seeded randomized oracle",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "invalid chunk configuration",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "name": "100k bounded-memory benchmark",
+      "pass": true,
+      "detail": {
+        "rows": 100000,
+        "seconds": 18.78,
+        "traced_peak_mb": 0.57
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "assessment": "PennyLab Advanced Python and CSV Engineering v1",
+  "assessment_type": "internal assistant-authored test, not official pact0 or external certification",
+  "points_earned": 100,
+  "points_possible": 100,
+  "passed": 10,
+  "total": 10,
+  "results": [
+    {
+      "test": "stable inner join",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "unmatched keys",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "many-to-many duplicate keys",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "Unicode UTF-8",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "quoted CSV fields",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "column collision naming",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "empty join keys",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "missing key rejection",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "atomic failure handling",
+      "passed": true,
+      "points": 10
+    },
+    {
+      "test": "100k-row scalability",
+      "passed": true,
+      "points": 10
+    }
+  ]
+}

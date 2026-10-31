@@ -1,0 +1,54 @@
+{
+  "suite": "PennyLab external-to-candidate holdout v3",
+  "scope": "New assistant-authored tests; not independent third-party certification",
+  "total": 9,
+  "passed": 9,
+  "score": 100.0,
+  "tests": [
+    {
+      "name": "non-default join key",
+      "pass": true,
+      "seconds": 0.064
+    },
+    {
+      "name": "multiline quoted CSV",
+      "pass": true,
+      "seconds": 0.061
+    },
+    {
+      "name": "literal evaluation injection string",
+      "pass": true,
+      "seconds": 0.048
+    },
+    {
+      "name": "existing output rollback",
+      "pass": true,
+      "seconds": 0.031
+    },
+    {
+      "name": "duplicate header rejection",
+      "pass": true,
+      "seconds": 0.065
+    },
+    {
+      "name": "text keys preserve leading zeroes",
+      "pass": true,
+      "seconds": 0.052
+    },
+    {
+      "name": "missing output directory",
+      "pass": true,
+      "seconds": 0.057
+    },
+    {
+      "name": "seeded differential fuzz (20 cases)",
+      "pass": true,
+      "seconds": 1.043
+    },
+    {
+      "name": "25k unmatched row scale",
+      "pass": true,
+      "seconds": 0.317
+    }
+  ]
+}
